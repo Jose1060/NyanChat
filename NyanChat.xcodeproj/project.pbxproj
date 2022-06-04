@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B90134BD4C13469449248BA /* Pods_NyanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082B47E923CCDD2C06013167 /* Pods_NyanChat.framework */; };
+		B89AB7BC28416A5600252DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89AB7BB28416A5600252DA5 /* AppDelegate.swift */; };
+		B89AB7BE28416A5600252DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89AB7BD28416A5600252DA5 /* SceneDelegate.swift */; };
+		B89AB7C028416A5600252DA5 /* iniciarSesionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89AB7BF28416A5600252DA5 /* iniciarSesionViewController.swift */; };
+		B89AB7C328416A5600252DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89AB7C128416A5600252DA5 /* Main.storyboard */; };
+		B89AB7C628416A5600252DA5 /* NyanChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B89AB7C428416A5600252DA5 /* NyanChat.xcdatamodeld */; };
+		B89AB7C828416A5700252DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89AB7C728416A5700252DA5 /* Assets.xcassets */; };
+		B89AB7CB28416A5700252DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89AB7C928416A5700252DA5 /* LaunchScreen.storyboard */; };
+		B89AB7D328416A6F00252DA5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B89AB7D228416A6F00252DA5 /* GoogleService-Info.plist */; };
+		B8C37DBB284AB52C00DE13A3 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C37DBA284AB52C00DE13A3 /* SnapsViewController.swift */; };
+		B8C37DBD284ABC3000DE13A3 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C37DBC284ABC3000DE13A3 /* ImagenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082B47E923CCDD2C06013167 /* Pods_NyanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NyanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF6C97A52640F38DE02E96D /* Pods-NyanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyanChat.debug.xcconfig"; path = "Target Support Files/Pods-NyanChat/Pods-NyanChat.debug.xcconfig"; sourceTree = "<group>"; };
+		277C3194ACE9BAB9F69DFA2A /* Pods-NyanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NyanChat.release.xcconfig"; path = "Target Support Files/Pods-NyanChat/Pods-NyanChat.release.xcconfig"; sourceTree = "<group>"; };
+		B89AB7B828416A5600252DA5 /* NyanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NyanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89AB7BB28416A5600252DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B89AB7BD28416A5600252DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B89AB7BF28416A5600252DA5 /* iniciarSesionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iniciarSesionViewController.swift; sourceTree = "<group>"; };
+		B89AB7C228416A5600252DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B89AB7C528416A5600252DA5 /* NyanChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NyanChat.xcdatamodel; sourceTree = "<group>"; };
+		B89AB7C728416A5700252DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B89AB7CA28416A5700252DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B89AB7CC28416A5700252DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89AB7D228416A6F00252DA5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8C37DB9284AAC5B00DE13A3 /* NyanChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NyanChat.entitlements; sourceTree = "<group>"; };
+		B8C37DBA284AB52C00DE13A3 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		B8C37DBC284ABC3000DE13A3 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B89AB7B528416A5600252DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B90134BD4C13469449248BA /* Pods_NyanChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC54418FA5C12A8C72EED36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				082B47E923CCDD2C06013167 /* Pods_NyanChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B89AB7AF28416A5500252DA5 = {
+			isa = PBXGroup;
+			children = (
+				B89AB7BA28416A5600252DA5 /* NyanChat */,
+				B89AB7B928416A5600252DA5 /* Products */,
+				ED913AB89DBE1ECDF6C6954E /* Pods */,
+				3AC54418FA5C12A8C72EED36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B89AB7B928416A5600252DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B89AB7B828416A5600252DA5 /* NyanChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B89AB7BA28416A5600252DA5 /* NyanChat */ = {
+			isa = PBXGroup;
+			children = (
+				B8C37DB9284AAC5B00DE13A3 /* NyanChat.entitlements */,
+				B89AB7BB28416A5600252DA5 /* AppDelegate.swift */,
+				B89AB7BD28416A5600252DA5 /* SceneDelegate.swift */,
+				B89AB7BF28416A5600252DA5 /* iniciarSesionViewController.swift */,
+				B89AB7C128416A5600252DA5 /* Main.storyboard */,
+				B89AB7C728416A5700252DA5 /* Assets.xcassets */,
+				B89AB7C928416A5700252DA5 /* LaunchScreen.storyboard */,
+				B89AB7CC28416A5700252DA5 /* Info.plist */,
+				B89AB7C428416A5600252DA5 /* NyanChat.xcdatamodeld */,
+				B89AB7D228416A6F00252DA5 /* GoogleService-Info.plist */,
+				B8C37DBA284AB52C00DE13A3 /* SnapsViewController.swift */,
+				B8C37DBC284ABC3000DE13A3 /* ImagenViewController.swift */,
+			);
+			path = NyanChat;
+			sourceTree = "<group>";
+		};
+		ED913AB89DBE1ECDF6C6954E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF6C97A52640F38DE02E96D /* Pods-NyanChat.debug.xcconfig */,
+				277C3194ACE9BAB9F69DFA2A /* Pods-NyanChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B89AB7B728416A5600252DA5 /* NyanChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B89AB7CF28416A5700252DA5 /* Build configuration list for PBXNativeTarget "NyanChat" */;
+			buildPhases = (
+				DF537E4C7AAAA4F683F67384 /* [CP] Check Pods Manifest.lock */,
+				B89AB7B428416A5600252DA5 /* Sources */,
+				B89AB7B528416A5600252DA5 /* Frameworks */,
+				B89AB7B628416A5600252DA5 /* Resources */,
+				EABFFB75B81A2AC98D7F57B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NyanChat;
+			productName = NyanChat;
+			productReference = B89AB7B828416A5600252DA5 /* NyanChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B89AB7B028416A5500252DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B89AB7B728416A5600252DA5 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = B89AB7B328416A5500252DA5 /* Build configuration list for PBXProject "NyanChat" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B89AB7AF28416A5500252DA5;
+			productRefGroup = B89AB7B928416A5600252DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B89AB7B728416A5600252DA5 /* NyanChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B89AB7B628416A5600252DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89AB7CB28416A5700252DA5 /* LaunchScreen.storyboard in Resources */,
+				B89AB7D328416A6F00252DA5 /* GoogleService-Info.plist in Resources */,
+				B89AB7C828416A5700252DA5 /* Assets.xcassets in Resources */,
+				B89AB7C328416A5600252DA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF537E4C7AAAA4F683F67384 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NyanChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EABFFB75B81A2AC98D7F57B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NyanChat/Pods-NyanChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NyanChat/Pods-NyanChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NyanChat/Pods-NyanChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B89AB7B428416A5600252DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C37DBB284AB52C00DE13A3 /* SnapsViewController.swift in Sources */,
+				B89AB7C028416A5600252DA5 /* iniciarSesionViewController.swift in Sources */,
+				B89AB7BC28416A5600252DA5 /* AppDelegate.swift in Sources */,
+				B8C37DBD284ABC3000DE13A3 /* ImagenViewController.swift in Sources */,
+				B89AB7BE28416A5600252DA5 /* SceneDelegate.swift in Sources */,
+				B89AB7C628416A5600252DA5 /* NyanChat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B89AB7C128416A5600252DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89AB7C228416A5600252DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B89AB7C928416A5700252DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B89AB7CA28416A5700252DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B89AB7CD28416A5700252DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B89AB7CE28416A5700252DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B89AB7D028416A5700252DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF6C97A52640F38DE02E96D /* Pods-NyanChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NyanChat/NyanChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NyanChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jose.NyanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B89AB7D128416A5700252DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277C3194ACE9BAB9F69DFA2A /* Pods-NyanChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NyanChat/NyanChat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NyanChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jose.NyanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B89AB7B328416A5500252DA5 /* Build configuration list for PBXProject "NyanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89AB7CD28416A5700252DA5 /* Debug */,
+				B89AB7CE28416A5700252DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B89AB7CF28416A5700252DA5 /* Build configuration list for PBXNativeTarget "NyanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B89AB7D028416A5700252DA5 /* Debug */,
+				B89AB7D128416A5700252DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B89AB7C428416A5600252DA5 /* NyanChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B89AB7C528416A5600252DA5 /* NyanChat.xcdatamodel */,
+			);
+			currentVersion = B89AB7C528416A5600252DA5 /* NyanChat.xcdatamodel */;
+			path = NyanChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B89AB7B028416A5500252DA5 /* Project object */;
+}
